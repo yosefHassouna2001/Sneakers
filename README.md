@@ -1,6 +1,6 @@
 # Sneakers
 
-- Live :  [ Jadoo ](https://yosefhassouna2001.github.io/Sneakers/)
+- Live :  [ Sneakers ](https://yosefhassouna2001.github.io/Sneakers/)
 -------
 
 ## Features
@@ -10,10 +10,4 @@
 - Js
 - Bootstrap
 
-<p align="center" >
-  <a href="https://yosefhassouna2001.github.io/Sneakers/" target="_blank">
-    <img src="assets/img/Sneakers.jpeg" width="400">
-  </a>
-</p>
-
-
+![Sneakers](assets/img/Sneakers.jpeg)
