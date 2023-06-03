@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Playfair+Display&display=swap');
+
+/* font-family: 'Amaranth', sans-serif; */
+* {
+    font-size: Amaranth;
+}
+
+.navbar-brand {
+    font-family: 'Amaranth', sans-serif;
+
+}
+
+.imgUser img{
+    transition: 0.5s;
+}
+.imgUser:hover img{
+    border-color: #FF7D1A !important;
+}
+
+.navbar-nav a{
+    border-bottom: 3px solid transparent;
+    border-width: 100%;
+    transition: 0.5s;
+    display: inline-block;
+}
+.navbar-nav a:hover{
+    border-bottom: 3px solid #FF7D1A;
+}
+/* .smollImg::after{
+    contain: "sdssdvsd";
+    width: 100px;
+    height: 100px;
+    background-color: black;
+} */
+
+
+ .bigImg{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+   position: relative;
+}
+.bigImg img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+   position: relative;
+
+}
+.smollImg a{
+    position: relative; 
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.smollImg img{
+   width: 100%;
+   height: 100%;
+}
+.smollImg a:hover::after{
+    opacity: 1;
+  }
+  .smollImg a:nth-child(1):after{
+    opacity: 1;
+    border: 3px solid #FF7D1A;
+  } 
+  .smollImg a:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.384);
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    opacity: 0;
+    transition: 0.3s;
+    
+    border-radius: 1rem;
+  } 
+  .smollImg a::after .activ{
+    opacity: 1;
+  } 
+  .numProdcts button{
+    border: none !important;
+    transition: 0.3s;
+    color: #FF7D1A;
+}
+  .numProdcts button:hover{
+    opacity: 0.5;
+  }
+  .btnAdd {
+    background-color: #FF7D1A;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 8px 20px #ff7d1a87 ;
+    transition: 0.5s;
+  }
+  .btnAdd:hover{
+    opacity: 0.5;
+  }
+  .spanNum{
+    background-color: #FF7D1A;
+    color: #fff;
+  }
+  .disCount{
+    background-color: #ff7d1a31;
+    color: #FF7D1A;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 2px 6px 4px;
+  }
+  .dropdown-menu{
+    margin-top: 40px !important;
+    width: 350px;
+    height: 350px;
+    overflow: auto;
+  }
